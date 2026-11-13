@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab 10</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <header class="game__header">
+      <h1 id="player-name" class="player-name">Гравець</h1>
+      <p id="attempt" class="attempt">Спроба 0 з 3</p>
+      <button id="generate" class="btn" type="button">Generate</button>
+    </header>
+
+    <div id="board" class="board" role="group" aria-label="Ігрове поле"></div>
+
+    <p id="message" class="message" role="status" aria-live="polite"></p>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
