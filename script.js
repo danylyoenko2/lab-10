@@ -195,7 +195,6 @@ function init() {
   buildBoard();
   preloadImages();
   nameEl.textContent = askName(); 
-  document.title = `Однорукий бандит — ${nameEl.textContent}`;
   buttonEl.addEventListener('click', spin);
   resetGame();
 }
